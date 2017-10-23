@@ -1,108 +1,36 @@
 *, *:after, *:before {
-/*	-webkit-display: flex;
-	-moz-display: flex;
-	-ms-display: flex;
-	-webkit-flex-flow: column-nowrap;
-	-moz-flex-flow: column-nowrap;*/
-	border
-}
-
-html {
-	color: #fff;
 	text-align: center;
 }
 
-h1 {
-	margin: 0 auto;
+.hero-image {
+	width: 100%;
 }
 
-.container-1 {
-	background-color: #162183;
-	border: 1px solid yellow;
+.logo {
+	max-width: 10%;
+	max-height: 10%;
 }
 
-.container-2 {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-around;
-	border: 1px solid yellow;
-	background-color: #C742BC;
-}
-
-.container-3 {
-	width: 200px;
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.item {
-	background-color: #3599;
-}
-
-.container-south-figaro {
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.item-south-figaro {
-	background-color: #3599;
-}
-
-
-/*.container {
-	margin: 0 auto;
-	background-color: #162183;
+header {
+	border-bottom: 5px solid grey;
+	margin-bottom: 10%;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
+	align-items: center;
 }
 
-.container-towns {
+.logo, h1, h3 {
+	margin: 1% auto;
+	display: flex;
+}
+
+.figures {
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	background-color: #C742BC;
 }
 
-.container-figaro {
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.figaro-item {
-	background-color: #3599;
-}
-
-.container-south-figaro {
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.south-figaro-item {
-	background-color: #3599;
-}
-
-.container-bosses {
+.app-pic {
+	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
-	justify-content: space-between;
-	background-color: #C742BC;
 }
-
-.container-kefka {
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.kefka-item {
-	background-color: #3599;
-}
-
-.container-ulros {
-	margin: 0 auto;
-	background-color: #3599;
-}
-
-.ulros-item {
-	background-color: #3599;
-}*/
