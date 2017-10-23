@@ -1,4 +1,108 @@
-.app {
-	display: -webkit-flex; /*in order to support Safari*/
-	display: flex;
+*, *:after, *:before {
+/*	-webkit-display: flex;
+	-moz-display: flex;
+	-ms-display: flex;
+	-webkit-flex-flow: column-nowrap;
+	-moz-flex-flow: column-nowrap;*/
+	border
 }
+
+html {
+	color: #fff;
+	text-align: center;
+}
+
+h1 {
+	margin: 0 auto;
+}
+
+.container-1 {
+	background-color: #162183;
+	border: 1px solid yellow;
+}
+
+.container-2 {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+	border: 1px solid yellow;
+	background-color: #C742BC;
+}
+
+.container-3 {
+	width: 200px;
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.item {
+	background-color: #3599;
+}
+
+.container-south-figaro {
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.item-south-figaro {
+	background-color: #3599;
+}
+
+
+/*.container {
+	margin: 0 auto;
+	background-color: #162183;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
+}
+
+.container-towns {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #C742BC;
+}
+
+.container-figaro {
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.figaro-item {
+	background-color: #3599;
+}
+
+.container-south-figaro {
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.south-figaro-item {
+	background-color: #3599;
+}
+
+.container-bosses {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	background-color: #C742BC;
+}
+
+.container-kefka {
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.kefka-item {
+	background-color: #3599;
+}
+
+.container-ulros {
+	margin: 0 auto;
+	background-color: #3599;
+}
+
+.ulros-item {
+	background-color: #3599;
+}*/
