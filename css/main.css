@@ -1,5 +1,6 @@
 *, *:after, *:before {
 	text-align: center;
+	color: #2d3c49;
 }
 
 figure {
@@ -12,6 +13,11 @@ figcaption{
 	margin: 0 auto;
 	display: flex;
 	
+}
+
+.hero-image picture img{
+	width: 100%;
+	height: 300px;
 }
 
 picture img{
@@ -39,8 +45,10 @@ header {
 .hero-image {
 	margin: 1.5em 0 1.5em 0;
 	width: 100%;
-	height: 200px;
+	height: 300px;
 }
+
+
 
 .logo {
 	max-width: 2em;
@@ -87,22 +95,58 @@ header {
 
 }*/
 
-@media only screen and (min-width: 640px) {
 
-.featured {
-	text-align: left;
-	padding-left: 10px;
+
+footer p {
+	color: #02b3e4;
+	font-size: x-small;
 }
 
-.figures {
-	
+.credits {
+	width: 100%;
+	margin: auto;
 	display: flex;
 	flex-direction: row;
-	justify-content: space-between;
+	flex-wrap: wrap;
+	justify-content: center;
+	align-content: center;
 }
 
-.app-pic {
-	width: 31.5%;
+.credits-individual{
+	/*float: left;*/
+	display: flex;
+	flex: wrap;
+	margin: 1px;
 }
+
+@media only screen and (min-width: 640px) {
+
+	.hero-image picture img{
+		width: 100%;
+		height: 400px;
+	}	
+
+	.hero-image {
+		margin: 1.5em 0 1.5em 0;
+		width: 100%;
+		height: 400px;
+	}
+	
+
+	.featured {
+		text-align: left;
+		padding-left: 10px;
+	}
+
+	.figures {
+		
+		display: flex;
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+	.app-pic {
+		width: 31.5%;
+	}
 
 }
