@@ -22,7 +22,7 @@ module.exports = function(grunt) {
 
           }]*/
 
-          [{ name: '640', width: 640, suffix: '_Small', quality: 50},{ name: '1280', width: 1280, suffix: '_Medium', quality: 50},{ name: '960', suffix: '_Large_1x', width: 960, quality: 50},{ name: '1920', suffix: '_Large_2x', width: 1920, quality: 50}]
+          [{ name: '320', width: 320, suffix: '_Small_1x', quality: 50},{ name: '640', width: 640, suffix: '_Small_1x_or_Large_2x', quality: 50},{ name: '960', width: 960, suffix: '_Medium_', quality: 50},{ name: '1280', width: 1280, suffix: '_Large_2x', quality: 50}]
         },
 
         /*
