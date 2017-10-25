@@ -10,58 +10,64 @@
 	<script type="text/javascript"></script>
 </head>
 <body class="grid">
-	<div class="container-1 col-wd-12 col-md-12 col-sm-12">
+	<section class="container-1 col-wd-12 col-md-12 col-sm-12">
 		<header class="banner">
-			<img class="logo" src="images_src/penrose-tiling.svg" alt="Logo">
+			<img id="logo" src="images_src/penrose-tiling.svg" alt="Logo">
 			<h2>RICARDO BOSSAN</h2>
 			<h5>FRONT-END WEB DEVELOPER</h5>
 		</header>
-		<figure class="hero-image"><!--ADD RESPONSIVE IMAGES FOR EACH .figure>.picture <source>!!!-->
+		<figure id="hero-image">
 			<picture>
 				<source srcset="images_hero/img-1_Slim_rsz-960_Slim_1x.jpg 1x, images_hero/img-1_Slim_rsz-1920_Slim_2x.jpg 2x" media="(min-width: 640px)">
 				<source srcset="images_hero/img-1_Square_rsz-640_Square_1x.jpg 1x, images_hero/img-1_Square_rsz-1280_Square_2x.jpg 2x" media="(min-width: 320px)">
-				<img src="images_hero/img-1_Square_rsz-960_Medium_.jpg" alt="part of 'de.sign' definition in phone screen">
+				<img src="images_hero/img-1_Square_rsz-960_Medium_.jpg" alt="a segment of the 'de.sign' definition, displayed on a mobile phone screen">
 			</picture>			
 		</figure>
-	</div>
-	<div class="container-1">
-		<p class="featured">Featured Work</p>
-		<div class="figures col-sm-12 col-md-12 col-wd-12"><!--ADD RESPONSIVE IMAGES FOR EACH .figure>.picture <source>!!!-->
+	</section>
+	<section class="container-1">
+		<h3 id="works">Featured Work</h3>
+		<article class="figures col-sm-12 col-md-12 col-wd-12">
 			<figure class="app-pic col-wd-12 col-md-4 col-sm-4">
-				<picture>
-					<source srcset="images/img-2_1.6_-320_Small_1x.jpg 1x, images/img-2_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
-					<source srcset="images/img-2_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-2_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
-					<img src="images/img-2_1.6_-960_Medium_.jpg" alt="description">				
-				</picture>
+				<a href="http://github.com/ricardobossan/app1">
+					<picture>
+						<source srcset="images/img-2_1.6_-320_Small_1x.jpg 1x, images/img-2_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
+						<source srcset="images/img-2_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-2_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
+						<img src="images/img-2_1.6_-960_Medium_.jpg" alt="description">
+					</picture>
+				</a>
 				<figcaption><h4>APP 1</h4><h6><a href="http://github.com/ricardobossan/app1">http://github.com/ricardobossan/app1</a></h6></figcaption>
 			</figure>	
 			<figure class="app-pic col-wd-12 col-md-4 col-sm-4">
-				<picture>
-					<source srcset="images/img-3_1.6_-320_Small_1x.jpg 1x, images/img-3_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
-					<source srcset="images/img-3_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-3_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
-					<img src="images/img-3_1.6_-960_Medium_.jpg" alt="description">	
-				</picture>
+				<a href="http://github.com/ricardobossan/app2">
+					<picture>
+						<source srcset="images/img-3_1.6_-320_Small_1x.jpg 1x, images/img-3_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
+						<source srcset="images/img-3_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-3_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
+						<img src="images/img-3_1.6_-960_Medium_.jpg" alt="description">	
+					</picture>
+				</a>
 				<figcaption><h4>APP 2</h4><h6><a href="http://github.com/ricardobossan/app2">http://github.com/ricardobossan/app2</a></h6></figcaption>
 			</figure>					
 			<figure class="app-pic col-wd-12 col-md-4 col-sm-4">
-				<picture>
-					<source srcset="images/img-4_1.6_-320_Small_1x.jpg 1x, images/img-4_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
-					<source srcset="images/img-4_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-4_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
-					<img src="images/img-4_1.6_-960_Medium_.jpg" alt="description">
-				</picture>
+				<a href="http://github.com/ricardobossan/app3">
+					<picture>
+						<source srcset="images/img-4_1.6_-320_Small_1x.jpg 1x, images/img-4_1.6_-640_Small_1x_or_Large_2x.jpg 2x" media="(min-width: 640px)">
+						<source srcset="images/img-4_1.6_-640_Small_1x_or_Large_2x.jpg 1x, images/img-4_1.6_-1280_Large_2x.jpg 2x" media="(min-width: 320px)">
+						<img src="images/img-4_1.6_-960_Medium_.jpg" alt="description">
+					</picture>
+				</a>
 				<figcaption><h4>APP 3</h4><h6><a href="http://github.com/ricardobossan/app3">http://github.com/ricardobossan/app3</a></h6></figcaption>
 			</figure>
-		</div>
-	</div>
+		</article>
+	</section>
 	<footer>
-		<p>Photo credits in order:</p>
-		<section class="credits">
+		<p>Photo credits in order:</p><!--This next segment was obtained by choosing to give credit to each photographer, with the option "Just copy the HTML code below and add it to your website", as seem, for example, with the "APP2" picture, in "https://unsplash.com/photos/VK284NKoAVU?modal=%7B%22type%22%3A%22credit-badge%22%2C%22userId%22%3A%22gnwb2chNB0Q%22%7D"-->
+		<div class="credits">
 			<div  class="credits-individual"><a style="background-color:silver;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@edhoradic?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Edho Pratama"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Edho Pratama</span></a>
 			</div>
 			<div class="credits-individual"><a style="background-color:silver;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Samuel Zeller"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Samuel Zeller</span></a></div>
 			<div class="credits-individual"><a style="background-color:silver;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@agkdesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Alex Knight"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Alex Knight</span></a></div>
 			<div class="credits-individual"><a style="background-color:silver;color:white;text-decoration:none;padding:4px 6px;font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;font-size:12px;font-weight:bold;line-height:1.2;display:inline-block;border-radius:3px;" href="https://unsplash.com/@dose?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dose Media"><span style="display:inline-block;padding:2px 3px;"><svg xmlns="http://www.w3.org/2000/svg" style="height:12px;width:auto;position:relative;vertical-align:middle;top:-1px;fill:white;" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span style="display:inline-block;padding:2px 3px;">Dose Media</span></a></div>
-		</section>
+		</div>
 	</footer>
 </body>
 </html>
