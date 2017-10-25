@@ -33,6 +33,14 @@ h2, h4, h5, h6 {
 	text-align: center;
 }
 
+h2 {
+	margin: 0;
+}
+
+p {
+	text-align: justify;
+	text-justify: inter-word;
+}
 
 footer p {
 	margin: 5em auto 0.5em auto;
@@ -61,6 +69,17 @@ footer p {
 	text-align: center;
 }
 
+#about-me {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 auto;
+	width: 100%;
+}
+
+
+
 #works {
 	margin: 0;
 	color: #7d97ad;
@@ -77,6 +96,10 @@ footer p {
 	display: flex;
 	flex-wrap: wrap;
 	padding: 15px 0 15px 0 ;
+}
+
+#photo-credits {
+	text-align: center;
 }
 
 .credits {
