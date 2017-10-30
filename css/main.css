@@ -16,18 +16,21 @@ figure {
 	margin: 0;
 }
 
-figcaption{
+figcaption {
 	margin: 0 auto;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
 }
 
-picture img{
+picture img {
 	width: 100%;
 }
 
-h2, h4, h5, h6 {
+h2,
+h4,
+h5,
+h6 {
 	margin: 0 auto;
 	display: flex;
 	text-align: center;
@@ -57,7 +60,7 @@ footer p {
 }
 
 #hero-image {
-	margin: 1.5em 0 1.5em 0;
+	margin: 1.5em 0;
 	width: 100%;
 }
 
@@ -69,7 +72,7 @@ footer p {
 	text-align: center;
 }
 
-#about-me {
+.about-me {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -78,9 +81,7 @@ footer p {
 	width: 100%;
 }
 
-
-
-#works {
+.works {
 	margin: 0;
 	color: #7d97ad;
 }
@@ -98,7 +99,7 @@ footer p {
 	padding: 15px 0 15px 0 ;
 }
 
-#photo-credits {
+.photo-credits {
 	text-align: center;
 }
 
@@ -117,6 +118,38 @@ footer p {
 	margin: 1px;
 }
 
+.credits-individual-anchor {
+	background-color:silver;
+	color:white;
+	text-decoration:none;
+	padding:4px 6px;
+	font-family:-apple-system, BlinkMacSystemFont, &quot;San Francisco&quot;, &quot;Helvetica Neue&quot;, Helvetica, Ubuntu, Roboto, Noto, &quot;Segoe UI&quot;, Arial, sans-serif;
+	font-size:12px;
+	font-weight:bold;
+	line-height:1.2;
+	display:inline-block;
+	border-radius:3px;
+}
+
+.credits-individual-anchor-inline-1 {
+	display:inline-block;
+	padding:2px 3px;
+}
+
+.credits-individual-anchor-inline-2 {
+	height:12px;
+	width:auto;
+	position:relative;
+	vertical-align:middle;
+	top:-1px;
+	fill:white;
+}
+
+.credits-individual-anchor-inline-3 {
+	display:inline-block;
+	padding:2px 3px;
+}
+
 @media only screen and (min-width: 640px) {
 
 	#works {
@@ -125,7 +158,6 @@ footer p {
 	}
 
 	.figures {
-		
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
@@ -134,5 +166,4 @@ footer p {
 	.app-pic {
 		width: 31.5%;
 	}
-
 }
