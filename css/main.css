@@ -59,12 +59,12 @@ footer p {
 	padding: 15px 0 0 0;
 }
 
-#hero-image {
+.hero-image {
 	margin: 1.5em 0;
 	width: 100%;
 }
 
-#logo {
+.logo {
 	max-width: 2em;
 	max-height: 2em;
 	margin: 0 auto;
@@ -81,7 +81,7 @@ footer p {
 	width: 100%;
 }
 
-.works {
+.	works {
 	margin: 0;
 	color: #7d97ad;
 }
