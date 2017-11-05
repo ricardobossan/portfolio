@@ -5,6 +5,16 @@ Images were cropped and resized utilizing ImageMagick and Grunt.
 
 ##Credits:
 
+####Favicon:
+
+######Downloaded _favicon.ico_ from:
+
+* Dan's Tools: www.favicon-generator.org (https://www.favicon-generator.org/download/2015-01-02/0a545a41260309571fbdbeb9f51b809a.ico)
+
+######Based implementation on:
+
+* https://sympli.io/blog/2017/02/15/heres-everything-you-need-to-know-about-favicons-in-2017/
+
 ####Made the _grid-responsive-view.css_ stylesheet based on:
 
 * W3Schools (https://www.w3schools.com/css/css_rwd_grid.asp), and

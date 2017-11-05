@@ -51,7 +51,7 @@ footer p {
 	font-size: x-small;
 }
 
-.container-1 {
+.block {
 	max-width: 960px;
 	min-width: 303px;
 	width: 100%;
@@ -59,12 +59,7 @@ footer p {
 	padding: 15px 0 0 0;
 }
 
-.hero-image {
-	margin: 1.5em 0;
-	width: 100%;
-}
-
-.logo {
+.block__logo {
 	max-width: 2em;
 	max-height: 2em;
 	margin: 0 auto;
@@ -72,7 +67,12 @@ footer p {
 	text-align: center;
 }
 
-.about-me {
+.block__hero-image {
+	margin: 1.5em 0;
+	width: 100%;
+}
+
+.block-2 {
 	display: flex;
 	flex-direction: column;
 	flex-wrap: wrap;
@@ -81,18 +81,18 @@ footer p {
 	width: 100%;
 }
 
-.text {
+.block-2__text {
 	float: left;
 	shape-outside: polygon(10px 10px, 20px 20px, 30px 30px);
 }
 
-.figures {
+.block__figures {
 	padding: 0;
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.app-pic {
+.block__figures__app-pic {
 	max-width: 100%;
 	display: flex;
 	flex-wrap: wrap;
@@ -113,12 +113,12 @@ footer p {
 	align-content: center;
 }
 
-.credits-individual{
+.credits__individual {
 	display: flex;
 	margin: 1px;
 }
 
-.credits-individual-anchor {
+.credits__individual__anchor {
 	background-color:silver;
 	color:white;
 	text-decoration:none;
@@ -131,12 +131,12 @@ footer p {
 	border-radius:3px;
 }
 
-.credits-individual-anchor-inline-1 {
+.credits__individual__anchor--inline-1 {
 	display:inline-block;
 	padding:2px 3px;
 }
 
-.credits-individual-anchor-inline-2 {
+.credits__individual__anchor--inline-2 {
 	height:12px;
 	width:auto;
 	position:relative;
@@ -145,25 +145,25 @@ footer p {
 	fill:white;
 }
 
-.credits-individual-anchor-inline-3 {
+.credits__individual__anchor--inline-3 {
 	display:inline-block;
 	padding:2px 3px;
 }
 
 @media only screen and (min-width: 640px) {
 
-	#works {
+	h3 {
 		text-align: left;
 		margin-left: 25px;
 	}
 
-	.figures {
+	.block__figures {
 		display: flex;
 		flex-direction: row;
 		justify-content: space-between;
 	}
 
-	.app-pic {
+	.block__figures__app-pic {
 		width: 31.5%;
 	}
 }

@@ -18,11 +18,11 @@ module.exports = function(grunt) {
             
             width: 800,
             suffix: 1,
-            quality: 109.9
+            quality: 49.9
 
           }]*/
 
-          [{ name: 'favicon', width: 16, suffix: '-16x16', quality: 100},{ name: 'favicon', width: 32, suffix: '-32x32', quality: 100},{ name: 'favicon', width: 96, suffix: '-96x96', quality: 100},{ name: 'older-iPhone', width: 120, quality: 100},{ name: 'iPhone-6-Plus', width: 180, suffix: '_180x180', quality: 100},{ name: 'iPad-Retina', width: 152, suffix: '152x152', quality: 100},{ name: 'iPad-Pro', width: 167, suffix: '_167x167', quality: 100},{ name: 'android-chrome', width: 196, suffix: '_196x196', quality: 100}]
+          [{ name: '320', width: 320, suffix: '_Small_1x', quality: 50},{ name: '640', width: 640, suffix: '_Small_1x_or_Large_2x', quality: 50},{ name: '960', width: 960, suffix: '_Medium_', quality: 50},{ name: '1280', width: 1280, suffix: '_Large_2x', quality: 50}]
         },
 
         /*
@@ -31,26 +31,26 @@ module.exports = function(grunt) {
         */
         files: [{
           expand: true,
-          src: ['*.{gif,jpg,png,ico}'],
-          cwd: 'images_src/favicon',
-          dest: 'images/favicon'
+          src: ['*.{gif,jpg,png}'],
+          cwd: 'images_src/',
+          dest: 'images/'
         }],
         concurrency: 1        
       }
     },
 
     /* Clear out the images directory if it exists */
-    /*clean: {
+    clean: {
       dev: {
         src: ['images'],
       },
-    },*/
+    },
 
     /* Generate the images directory if it is missing */
     mkdir: {
       dev: {
         options: {
-          create: ['images/favicon']
+          create: ['images']
         },
       },
     },
@@ -60,17 +60,17 @@ module.exports = function(grunt) {
       dev: {
         files: [{
           expand: true,
-          src: 'images_src*.{gif,jpg,png,ico}',
-          dest: 'images/favicon/'
+          src: 'images_src/fixed/*.{gif,jpg,png}',
+          dest: 'images/'
         }]
       },
     },
   });
   
   grunt.loadNpmTasks('grunt-responsive-images');
-  /*grunt.loadNpmTasks('grunt-contrib-clean');*/
+  grunt.loadNpmTasks('grunt-contrib-clean');
   grunt.loadNpmTasks('grunt-contrib-copy');
   grunt.loadNpmTasks('grunt-mkdir');
-  grunt.registerTask('default', [/*'clean', */'mkdir', 'copy', 'responsive_images']);
+  grunt.registerTask('default', ['clean', 'mkdir', 'copy', 'responsive_images']);
 
 };
