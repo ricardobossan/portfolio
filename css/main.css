@@ -160,7 +160,7 @@ footer p {
 	.block__figures {
 		display: flex;
 		flex-direction: row;
-		justify-content: space-between;
+		justify-content: space-around;
 	}
 
 	.block__figures__app-pic {
