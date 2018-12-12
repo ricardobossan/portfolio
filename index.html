@@ -1,12 +1,13 @@
 <!-- 
-/*
- * @todo mudar texto  do "About me"
+/* @todo fix footer
+ * @todo add social network icons
  * @todo Talvez seja bom colar screens nos README.md dos respectivos repositórios
  * @todo Printar imagens dos apps relacionados no currículo, inclusive do próprio portfolio, por último
  * @todo adicionar imagens ao README.md do portfolio pronto
  * OK @todo ajustar flex para space-around
  * OK @todo demonstrar 5 apps com figuras responsivas
  * OK @todo hide url for apps, and update their names and link's urls
+ * OK @todo mudar texto  do "About me"
  */
  -->
 <!DOCTYPE html>
@@ -40,12 +41,12 @@
 	<link rel="stylesheet" href="CSS/main.css">
 </head>
 <body class="grid">
-	<main class="block col-wd-12 col-md-12 col-sm-12">
 		<header class="block__banner">
 			<img class="block__logo" src="images_src/penrose-tiling.svg" alt="Logo">
 			<h2>RICARDO BOSSAN</h2>
 			<h5>FRONT-END WEB DEVELOPER</h5>
 		</header>
+	<main class="block col-wd-12 col-md-12 col-sm-12">
 		<figure class="block__hero-image">
 			<picture>
 				<source srcset="images_hero/img-1_Slim_rsz-960_Slim_1x.jpg 1x, images_hero/img-1_Slim_rsz-1920_Slim_2x.jpg 2x" media="(min-width: 640px)">
@@ -53,8 +54,7 @@
 				<img src="images_hero/img-1_Square_rsz-960_Medium_.jpg" alt="a segment of the 'de.sign' definition, displayed on a mobile phone screen">
 			</picture>			
 		</figure>
-	</main>
-	<section class="block-2"><h3>About me</h3><p class="block-2__text">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam in mi porta, consequat nulla sit amet, auctor quam. Nullam sodales ultrices dolor id euismod. Mauris est nisi, euismod ut varius vel, tempus ac sem. Nam fringilla tortor sed dictum aliquam. Suspendisse imperdiet hendrerit quam, eget rhoncus tellus. Vivamus imperdiet malesuada orci, a maximus nibh malesuada at. </p></section>
+	<section class="block-2"><h3>About me</h3><p class="block-2__text">I'm a Front-End Web Developer. I've praticed law for 8 years and then decided to start fresh on IT. This page is for displaying the things I create. Have a look!</p></section>
 	<section class="block">
 		<h3>Featured Work</h3>
 		<article class="block__figures col-sm-12 col-md-12 col-wd-12">
@@ -110,15 +110,14 @@
 			</figure>					
 		</article>
 	</section>
+	</main>
 	<footer>
-		<p class="photo-credits">Photo credits in order:</p><!--This next segment was obtained by choosing to give credit to each photographer, with the option "Just copy the HTML code below and add it to your website", as seem, for example, with the "APP2" picture, in "https://unsplash.com/photos/VK284NKoAVU?modal=%7B%22type%22%3A%22credit-badge%22%2C%22userId%22%3A%22gnwb2chNB0Q%22%7D"-->
-		<div class="credits">
-			<div  class="credits__individual"><a class="credits__individual__anchor" href="https://unsplash.com/@edhoradic?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Edho Pratama"><span class="credits__individual__anchor--inline-1"><svg xmlns="http://www.w3.org/2000/svg" class="credits__individual__anchor--inline-2" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span class="credits__individual__anchor--inline-3">Edho Pratama</span></a>
-			</div>
-			<div class="credits__individual"><a class="credits__individual__anchor" href="https://unsplash.com/@samuelzeller?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Samuel Zeller"><span class="credits__individual__anchor--inline-1"><svg xmlns="http://www.w3.org/2000/svg" class="credits__individual__anchor--inline-2" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span class="credits__individual__anchor--inline-3">Samuel Zeller</span></a></div>
-			<div class="credits__individual"><a class="credits__individual__anchor" href="https://unsplash.com/@agkdesign?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Alex Knight"><span class="credits__individual__anchor--inline-1"><svg xmlns="http://www.w3.org/2000/svg" class="credits__individual__anchor--inline-2" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span class="credits__individual__anchor--inline-3">Alex Knight</span></a></div>
-			<div class="credits__individual"><a class="credits__individual__anchor" href="https://unsplash.com/@dose?utm_medium=referral&amp;utm_campaign=photographer-credit&amp;utm_content=creditBadge" target="_blank" rel="noopener noreferrer" title="Download free do whatever you want high-resolution photos from Dose Media"><span class="credits__individual__anchor--inline-1"><svg xmlns="http://www.w3.org/2000/svg" class="credits__individual__anchor--inline-2" viewBox="0 0 32 32"><title></title><path d="M20.8 18.1c0 2.7-2.2 4.8-4.8 4.8s-4.8-2.1-4.8-4.8c0-2.7 2.2-4.8 4.8-4.8 2.7.1 4.8 2.2 4.8 4.8zm11.2-7.4v14.9c0 2.3-1.9 4.3-4.3 4.3h-23.4c-2.4 0-4.3-1.9-4.3-4.3v-15c0-2.3 1.9-4.3 4.3-4.3h3.7l.8-2.3c.4-1.1 1.7-2 2.9-2h8.6c1.2 0 2.5.9 2.9 2l.8 2.4h3.7c2.4 0 4.3 1.9 4.3 4.3zm-8.6 7.5c0-4.1-3.3-7.5-7.5-7.5-4.1 0-7.5 3.4-7.5 7.5s3.3 7.5 7.5 7.5c4.2-.1 7.5-3.4 7.5-7.5z"></path></svg></span><span class="credits__individual__anchor--inline-3">Dose Media</span></a></div>
-		</div>
+		<p>Contact:</p>
+		<p>ricardobossan@gmail.com</p>
+		<ol>
+			<li><a><img>Linkedin</a></li>
+			<li><a><img>Github</a></li>
+		</ol>
 	</footer>
 	<script src="js/app.js"></script>
 </body>
