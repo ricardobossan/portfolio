@@ -80,6 +80,7 @@ footer li {
 
 footer a {
 	font-size: 1.5em;
+	text-decoration: none;
 }
 
 .block {
