@@ -1,8 +1,8 @@
 # Fully Responsive Online Portfolio
 
-[App View Desktop][10]
-[App View Mobile 1][11]
-[App View Mobile 2][12]
+![App View Desktop][10]
+![App View Mobile 1][11]
+![App View Mobile 2][12]
 
 ## Description:
 
