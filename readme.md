@@ -3,10 +3,10 @@
 ### Desktop View
 ![App View Desktop][10]
 
-### Mobile View #3
+### Mobile View #1
 ![App View Mobile 1][11]
 
-### Mobile View #3
+### Mobile View #2
 ![App View Mobile 2][12]
 
 ## Description:
