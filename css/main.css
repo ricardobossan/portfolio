@@ -11,6 +11,7 @@
 	color: #2d3c49;
 }
 
+
 header {
 	margin-top: 1em;
 	padding-bottom: 1.5em;
@@ -40,18 +41,41 @@ nav li {
 	margin: 0 10px 0 10px;
 }
 
+nav a {
+	font-weight: bold;
+}
+
+a:hover {
+	border-radius: 10px;
+	background-color: #7d97ad;
+	color: #FFF;
+	text-decoration: none
+}
+
 main {
 	max-width: 960px;
 	min-width: 303px;
 	width: 100%;
-	margin: 0 auto 70px auto;
+	margin: 0 auto 90px auto;
 	/* padding: 15px 0 0 0; */
 
 }
 
 figure {
+	border-radius: 10px;
 	width: 100%;
 	margin: 0;
+}
+
+#featuredWork figure:hover {
+	background-color: #7d97ad;
+	color: #FFF;
+	text-decoration: none;	
+}
+#featuredWork figure:hover a {
+	background-color: #7d97ad;
+	color: #FFF;
+	text-decoration: none;	
 }
 
 figcaption {
@@ -167,6 +191,10 @@ footer a {
 	h3 {
 		text-align: left;
 		margin-left: 25px;
+	}
+
+	figcaption h3 {
+		margin-left: 0;
 	}
 
 	.block__figures {
