@@ -20,6 +20,14 @@ header {
 	align-items: center;
 }
 
+main {
+	max-width: 960px;
+	min-width: 303px;
+	width: 100%;
+	margin: 0 auto 70px auto;
+	padding: 15px 0 0 0;
+}
+
 figure {
 	width: 100%;
 	margin: 0;
@@ -55,6 +63,7 @@ p {
 }
 
 footer {
+	margin-top: 50px;
 	width: 100%;
 	position: fixed;
 	bottom: 0;
@@ -89,11 +98,6 @@ footer a {
 }
 
 .block {
-	max-width: 960px;
-	min-width: 303px;
-	width: 100%;
-	margin: 0 auto;
-	padding: 15px 0 0 0;
 }
 
 .block__logo {
