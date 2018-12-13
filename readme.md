@@ -1,7 +1,12 @@
 # Fully Responsive Online Portfolio
 
+### Desktop View
 ![App View Desktop][10]
+
+### Mobile View #3
 ![App View Mobile 1][11]
+
+### Mobile View #3
 ![App View Mobile 2][12]
 
 ## Description:
