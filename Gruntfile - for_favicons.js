@@ -33,7 +33,7 @@ module.exports = function(grunt) {
           expand: true,
           src: ['*.{gif,jpg,png,ico}'],
           cwd: 'images_src/favicon',
-          dest: 'images/favicon'
+          dest: 'images_favicon'
         }],
         concurrency: 1        
       }
@@ -42,7 +42,7 @@ module.exports = function(grunt) {
     /* Clear out the images directory if it exists */
     /*clean: {
       dev: {
-        src: ['images'],
+        src: ['images_favicon'],
       },
     },*/
 
@@ -61,7 +61,7 @@ module.exports = function(grunt) {
         files: [{
           expand: true,
           src: 'images_src*.{gif,jpg,png,ico}',
-          dest: 'images/favicon/'
+          dest: 'images_favicon/'
         }]
       },
     },
