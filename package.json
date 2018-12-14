@@ -4,6 +4,7 @@
   "description": "Display for my work",
   "main": "index.html",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
