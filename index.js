@@ -8,4 +8,4 @@ app.get('/', function(req, res) {
     res.sendFile(path.join(__dirname + '/'));
 });
 
-app.listen(PORT);
+app.listen(7001);
