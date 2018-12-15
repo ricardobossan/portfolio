@@ -47,7 +47,7 @@ showTimes = () => {
 =======
 */// viewed at http://localhost:8080
 app.get('/', function(req, res) {
-    res.sendFile(path.join(__dirname + '/index.html'));
+    res.sendFile(path.join(__dirname + '/index'));
 });
 
 app.listen(7001);
