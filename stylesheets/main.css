@@ -61,6 +61,10 @@ main a:hover {
 	background-color: ;
 }
 
+article {
+	margin-bottom: 5px
+}
+
 figure {
 	border-radius: 10px;
 	width: 100%;
