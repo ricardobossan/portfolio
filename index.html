@@ -1,7 +1,9 @@
 <!-- 
- * @todo implementar navbar, com urls para os IDs de cada seção: "About me", "Featured Work"
+ * @todo get apps images out of focus sequence, for easier tabing through
+ * @todo considerar disponibilizar tb link para repositório github para cada projeto, nos seguintes estilos:
+ *	* cada projeto, ao passar o mouse por cima (ou focus), div escurece (another layer of z-index on a semitransparent (color: #7d97ad) peel over it. maybe transition with some CSS animation later)
  * @todo talvez, adicionar breakpoint para visualização mobile deitado (e.g. width 640x320) e botão na navbar "Contact", bem como a respectiva view (sem footer)
- * @todo Printar imagens dos apps relacionados no currículo, inclusive do próprio portfolio, por último
+ * @todo se fizer breakpoint para mobile deitado, printar e disponibilizar essa view no README.md do projeto Portfolio (Fully Responsive)
  * @todo adicionar imagens ao README.md do portfolio pronto
  * @todo descobrir serviço de hosting para portfolio (best hosting service for begginer web developer)
  * OK @todo ajustar flex para space-around
@@ -12,6 +14,8 @@
  * OK @todo add social network icons
  * OK @todo fix favicon
  * OK @todo Talvez seja bom colar screens nos README.md dos respectivos repositórios
+ * OK @todo Printar imagens dos apps relacionados no currículo, inclusive do próprio portfolio, por último
+ * OK @todo implementar navbar, com urls para os IDs de cada seção: "About me", "Featured Work"
  */
  -->
 <!DOCTYPE html>
@@ -72,34 +76,34 @@
 		<h3>Featured Work</h3>
 		<article class="block__figures col-sm-12 col-md-12 col-wd-12">
 			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://github.com/ricardobossan/Restaurant-Reviews-WebApp">
+				<a href="https://restaurant-review-webapp.herokuapp.com/">
 					<picture>
 						<source srcset="images/img-2-320_Small_1x.png 1x, images/img-2-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
 						<source srcset="images/img-2-640_Small_1x_or_Large_2x.png 1x, images/img-2-1280_Large_2x.png 2x" media="(min-width: 320px)">
 						<img src="images/img-2-960_Medium_.png" alt="white robot with a tablet">
 					</picture>
 				</a>
-				<figcaption><h3><a href="https://github.com/ricardobossan/Restaurant-Reviews-WebApp">Restaurant Review Web App</a></h3></figcaption>
+				<figcaption><h3><a href="https://restaurant-review-webapp.herokuapp.com/">Restaurant Review Web App</a></h3></figcaption>
 			</figure>	
 			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://github.com/ricardobossan/arcade-game">
+				<a href="https://arcade-game-frogger.herokuapp.com">
 					<picture>
 						<source srcset="images/img-3-320_Small_1x.png 1x, images/img-3-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
 						<source srcset="images/img-3-640_Small_1x_or_Large_2x.png 1x, images/img-3-1280_Large_2x.png 2x" media="(min-width: 320px)">
 						<img src="images/img-3-960_Medium_.png" alt="child wearing vr googles">	
 					</picture>
 				</a>
-				<figcaption><h3><a href="https://github.com/ricardobossan/arcade-game">Arcade Game (Frogger)</a></h3></figcaption>
+				<figcaption><h3><a href="https://arcade-game-frogger.herokuapp.com">Arcade Game (Frogger)</a></h3></figcaption>
 			</figure>					
 			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://github.com/ricardobossan/fend-project-memory-game-master">
+				<a href="https://matching-game-premium.herokuapp.com">
 					<picture>
 						<source srcset="images/img-4-320_Small_1x.png 1x, images/img-4-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
 						<source srcset="images/img-4-640_Small_1x_or_Large_2x.png 1x, images/img-4-1280_Large_2x.png 2x" media="(min-width: 320px)">
 						<img src="images/img-4-960_Medium_.png" alt="drone hovering above a hand palm">
 					</picture>
 				</a>
-				<figcaption><h3><a href="https://github.com/ricardobossan/fend-project-memory-game-master">Matching Game</a></h3></figcaption>
+				<figcaption><h3><a href="https://matching-game-premium.herokuapp.com">Matching Game</a></h3></figcaption>
 			</figure>
 			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
 				<a href="https://github.com/ricardobossan/frontend-nanodegree-feedreader">
@@ -112,7 +116,7 @@
 				<figcaption><h3><a href="https://github.com/ricardobossan/frontend-nanodegree-feedreader">Feed Reader Tester</a></h3></figcaption>
 			</figure>	
 			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://github.com/ricardobossan/cat-clicker">
+				<a href="https://cat-clicker-premium.herokuapp.com/">
 					<picture>
 						<source srcset="images/img-6-320_Small_1x.png 1x, images/img-6-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
 						<source srcset="images/img-6-640_Small_1x_or_Large_2x.png 1x, images/img-6-1280_Large_2x.png 2x" media="(min-width: 320px)">
