@@ -67,6 +67,10 @@ figure {
 	margin: 0;
 }
 
+#aboutMe p {
+	padding: 0 10px 0 10px;
+}
+
 #featuredWork figure:hover {
 	background-color: #C7CDD3;
 	color: #FFF;
