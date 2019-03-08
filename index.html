@@ -21,126 +21,337 @@
  -->
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<!--THEME COLOR FOR CHROME, IN ANDROID-->
-	<meta name="theme-color" content="#02b3e4">
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>Portfolio</title>
-	<!--FAVICON STANDART-->
-	<link rel="icon" type="image/png" href="images_favicon/favicon-16x16.ico" sizes="16x16">
-	<link rel="icon" type="image/png" href="images_favicon/favicon-32x32.ico" sizes="32x32">
-	<link rel="icon" type="image/png" href="images_favicon/favicon-96x96.ico" sizes="96x96">
-	<!--FAVICON_APPLE TOUCH ICON-->
-	<link rel="apple-touch-icon" href="older-iPhone.ico"> <!--120px-->
-	<link rel="apple-touch-icon" sizes="180x180" href="images_favicon/iPhone-6-Plus.ico">
-	<link rel="apple-touch-icon" sizes="152x152" href="images_favicon/iPad-Retina.ico">
-	<link rel="apple-touch-icon" sizes="167x167" href="images_favicon/iPad-Pro.ico">
-	<!--FAVICON CHROME WEBSTORE ICON-->
-	<link rel="#" sizes="128x128" href="images_favicon/android-chrome_196x196.ico">
-	<!--FAVICON ANDROID CHROME ICON-->
-	<link rel="icon" sizes="196x196" href="#">
-	<!--FAVICON OPERA COST ICON-->
-	<link rel="#" sizes="228x228" href="#">
-	<!--FAVICON SOCIAL MEDIA SHARES ICON-->
-	<link rel="#" sizes="#" href="#">
-	<!--CSS STYLESHEETS-->
-	<link rel="stylesheet" type="text/css" href="stylesheets/normalize.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/grid-responsive-view.css">
-	<link rel="stylesheet" type="text/css" href="stylesheets/main.css">
-	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP" crossorigin="anonymous">
-
-
-</head>
-<body class="grid">
-	<header class="block__banner">
-		<img class="block__logo" src="images_src/penrose-tiling.svg" alt="Logo">
-		<h2>RICARDO BOSSAN</h2>
-		<h5>FRONT-END WEB DEVELOPER</h5>
-	</header>
-	<nav>
-		<ol>
-			<li><a href="#aboutMe">About Me</a></li>
-			<li><a href="#featuredWork">Featured Work</a></li>
-		</ol>
-	</nav>
-	<main class="block col-wd-12 col-md-12 col-sm-12">
-		<figure class="block__hero-image">
-			<picture>
-				<source srcset="images_hero/img-1_Slim_rsz-960_Slim_1x.jpg 1x, images_hero/img-1_Slim_rsz-1920_Slim_2x.jpg 2x" media="(min-width: 640px)">
-				<source srcset="images_hero/img-1_Square_rsz-640_Square_1x.jpg 1x, images_hero/img-1_Square_rsz-1280_Square_2x.jpg 2x" media="(min-width: 320px)">
-				<img src="images_hero/img-1_Square_rsz-960_Medium_.jpg" alt="a segment of the 'de.sign' definition, displayed on a mobile phone screen">
-			</picture>			
-		</figure>
-	<section id="aboutMe" class="block-2"><h3>About me</h3><p class="block-2__text">I'm a Front-End Web Developer. I've praticed law for 8 years and then decided to start fresh on IT. This page is for displaying the things I create. Have a look!</p></section>
-	<section id="featuredWork" class="block">
-		<h3>Featured Work</h3>
-		<article class="block__figures col-sm-12 col-md-12 col-wd-12">
-			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://restaurant-review-webapp.herokuapp.com"/ tabindex="-1">
-					<picture>
-						<source srcset="images/img-2-320_Small_1x.png 1x, images/img-2-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
-						<source srcset="images/img-2-640_Small_1x_or_Large_2x.png 1x, images/img-2-1280_Large_2x.png 2x" media="(min-width: 320px)">
-						<img src="images/img-2-960_Medium_.png" alt="white robot with a tablet">
-					</picture>
-				</a>
-				<figcaption><h3><a href="https://restaurant-review-webapp.herokuapp.com/">Restaurant Review Web App</a></h3></figcaption>
-			</figure>	
-			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://arcade-game-frogger.herokuapp.com" tabindex="-1">
-					<picture>
-						<source srcset="images/img-3-320_Small_1x.png 1x, images/img-3-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
-						<source srcset="images/img-3-640_Small_1x_or_Large_2x.png 1x, images/img-3-1280_Large_2x.png 2x" media="(min-width: 320px)">
-						<img src="images/img-3-960_Medium_.png" alt="child wearing vr googles">	
-					</picture>
-				</a>
-				<figcaption><h3><a href="https://arcade-game-frogger.herokuapp.com">Arcade Game (Frogger)</a></h3></figcaption>
-			</figure>					
-			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://matching-game-premium.herokuapp.com" tabindex="-1">
-					<picture>
-						<source srcset="images/img-4-320_Small_1x.png 1x, images/img-4-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
-						<source srcset="images/img-4-640_Small_1x_or_Large_2x.png 1x, images/img-4-1280_Large_2x.png 2x" media="(min-width: 320px)">
-						<img src="images/img-4-960_Medium_.png" alt="drone hovering above a hand palm">
-					</picture>
-				</a>
-				<figcaption><h3><a href="https://matching-game-premium.herokuapp.com">Matching Game</a></h3></figcaption>
-			</figure>
-			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="http://feedreader-tester.herokuapp.com" tabindex="-1">
-					<picture>
-						<source srcset="images/img-5-320_Small_1x.png 1x, images/img-5-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
-						<source srcset="images/img-5-640_Small_1x_or_Large_2x.png 1x, images/img-5-1280_Large_2x.png 2x" media="(min-width: 320px)">
-						<img src="images/img-5-960_Medium_.png" alt="white robot with a tablet">
-					</picture>
-				</a>
-				<figcaption><h3><a href="http://feedreader-tester.herokuapp.com">Feed Reader Tester</a></h3></figcaption>
-			</figure>	
-			<figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
-				<a href="https://cat-clicker-premium.herokuapp.com" tabindex="-1">
-					<picture>
-						<source srcset="images/img-6-320_Small_1x.png 1x, images/img-6-640_Small_1x_or_Large_2x.png 2x" media="(min-width: 640px)">
-						<source srcset="images/img-6-640_Small_1x_or_Large_2x.png 1x, images/img-6-1280_Large_2x.png 2x" media="(min-width: 320px)">
-						<img src="images/img-6-960_Medium_.png" alt="child wearing vr googles">	
-					</picture>
-				</a>
-				<figcaption><h3><a href="https://cat-clicker-premium.herokuapp.com">Cat Clicker Web App</a></h3></figcaption>
-			</figure>					
-		</article>
-	</section>
-	</main>
-	<footer>
-		
-
-		<p><br>Contact:<br>ricardobossan@gmail.com</p>
-		<ul>
-			<li><a href="https://www.linkedin.com/in/ricardo-bossan/"><i class="fa fa-linkedin" aria-hidden="true"></i></a></li>
-			<li><a href="https://github.com/ricardobossan"><i class="fa fa-github" aria-hidden="true"></i>
-</a></li>
-			<li><a href="https://twitter.com/BossanRicardo"><i class="fa fa-twitter" aria-hidden="true"></i>
-</a></li>
-		</ul>
-	</footer>
-	<script src="https://use.fontawesome.com/cfa0c4c3c0.js"></script>
-</body>
+  <head>
+    <!--THEME COLOR FOR CHROME, IN ANDROID-->
+    <meta name="theme-color" content="#02b3e4" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Portfolio</title>
+    <!--FAVICON STANDART-->
+    <link
+      rel="icon"
+      type="image/png"
+      href="images_favicon/favicon-16x16.ico"
+      sizes="16x16"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images_favicon/favicon-32x32.ico"
+      sizes="32x32"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      href="images_favicon/favicon-96x96.ico"
+      sizes="96x96"
+    />
+    <!--FAVICON_APPLE TOUCH ICON-->
+    <link rel="apple-touch-icon" href="older-iPhone.ico" />
+    <!--120px-->
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="images_favicon/iPhone-6-Plus.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="152x152"
+      href="images_favicon/iPad-Retina.ico"
+    />
+    <link
+      rel="apple-touch-icon"
+      sizes="167x167"
+      href="images_favicon/iPad-Pro.ico"
+    />
+    <!--FAVICON CHROME WEBSTORE ICON-->
+    <link
+      rel="#"
+      sizes="128x128"
+      href="images_favicon/android-chrome_196x196.ico"
+    />
+    <!--FAVICON ANDROID CHROME ICON-->
+    <link rel="icon" sizes="196x196" href="#" />
+    <!--FAVICON OPERA COST ICON-->
+    <link rel="#" sizes="228x228" href="#" />
+    <!--FAVICON SOCIAL MEDIA SHARES ICON-->
+    <link rel="#" sizes="#" href="#" />
+    <!--CSS STYLESHEETS-->
+    <link rel="stylesheet" type="text/css" href="stylesheets/normalize.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="stylesheets/grid-responsive-view.css"
+    />
+    <link rel="stylesheet" type="text/css" href="stylesheets/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      integrity="sha384-gfdkjb5BdAXd+lj+gudLWI+BXq4IuLW5IT+brZEZsLFm++aCMlF1V92rMkPaX4PP"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body class="grid">
+    <header class="block__banner">
+      <img class="block__logo" src="images_src/penrose-tiling.svg" alt="Logo" />
+      <h2>RICARDO BOSSAN</h2>
+      <h5>FRONT-END WEB DEVELOPER</h5>
+    </header>
+    <nav>
+      <ol>
+        <li><a href="#aboutMe">About Me</a></li>
+        <li><a href="#featuredWork">Featured Work</a></li>
+      </ol>
+    </nav>
+    <main class="block col-wd-12 col-md-12 col-sm-12">
+      <figure class="block__hero-image">
+        <picture>
+          <source
+            srcset="
+              images_hero/img-1_Slim_rsz-960_Slim_1x.jpg  1x,
+              images_hero/img-1_Slim_rsz-1920_Slim_2x.jpg 2x
+            "
+            media="(min-width: 640px)"
+          />
+          <source
+            srcset="
+              images_hero/img-1_Square_rsz-640_Square_1x.jpg  1x,
+              images_hero/img-1_Square_rsz-1280_Square_2x.jpg 2x
+            "
+            media="(min-width: 320px)"
+          />
+          <img
+            src="images_hero/img-1_Square_rsz-960_Medium_.jpg"
+            alt="a segment of the 'de.sign' definition, displayed on a mobile phone screen"
+          />
+        </picture>
+      </figure>
+      <section id="aboutMe" class="block-2">
+        <h3>About me</h3>
+        <p class="block-2__text">
+          I'm a Front-End Web Developer. I've praticed law for 8 years and then
+          decided to start fresh on IT. This page is for displaying the things I
+          create. Have a look!
+        </p>
+      </section>
+      <section id="featuredWork" class="block">
+        <h3>Featured Work</h3>
+        <article class="block__figures col-sm-12 col-md-12 col-wd-12">
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a
+              href="https://neighbourhood-map-webapp.herokuapp.com/"
+              tabindex="-1"
+            >
+              <picture>
+                <source
+                  srcset="
+                    images/7-320_Small_1x.png             1x,
+                    images/7-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/7-640_Small_1x_or_Large_2x.png 1x,
+                    images/7-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/7-960_Medium_.png"
+                  alt="Neighbourhood map view and list of locations"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://neighbourhood-map-webapp.herokuapp.com/"
+                  >Neighbourhood Map Web App</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a href="https://my-reads-webapp.herokuapp.com" tabindex="-1">
+              <picture>
+                <source
+                  srcset="
+                    images/8-320_Small_1x.png             1x,
+                    images/8-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/8-640_Small_1x_or_Large_2x.png 1x,
+                    images/8-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/8-960_Medium_.png"
+                  alt="Shelves and respective books"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://my-reads-webapp.herokuapp.com"
+                  >MyReads Web App</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a
+              href="https://restaurant-review-webapp.herokuapp.com/"
+              tabindex="-1"
+            >
+              <picture>
+                <source
+                  srcset="
+                    images/img-2-320_Small_1x.png             1x,
+                    images/img-2-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/img-2-640_Small_1x_or_Large_2x.png 1x,
+                    images/img-2-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/img-2-960_Medium_.png"
+                  alt="white robot with a tablet"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://restaurant-review-webapp.herokuapp.com/"
+                  >Restaurant Review Web App</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a href="https://arcade-game-frogger.herokuapp.com" tabindex="-1">
+              <picture>
+                <source
+                  srcset="
+                    images/img-3-320_Small_1x.png             1x,
+                    images/img-3-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/img-3-640_Small_1x_or_Large_2x.png 1x,
+                    images/img-3-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/img-3-960_Medium_.png"
+                  alt="child wearing vr googles"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://arcade-game-frogger.herokuapp.com"
+                  >Arcade Game (Frogger)</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a href="https://matching-game-premium.herokuapp.com" tabindex="-1">
+              <picture>
+                <source
+                  srcset="
+                    images/img-4-320_Small_1x.png             1x,
+                    images/img-4-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/img-4-640_Small_1x_or_Large_2x.png 1x,
+                    images/img-4-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/img-4-960_Medium_.png"
+                  alt="drone hovering above a hand palm"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://matching-game-premium.herokuapp.com"
+                  >Matching Game</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+          <figure class="block__figures__app-pic col-wd-12 col-md-4 col-sm-4">
+            <a href="https://cat-clicker-premium.herokuapp.com" tabindex="-1">
+              <picture>
+                <source
+                  srcset="
+                    images/img-6-320_Small_1x.png             1x,
+                    images/img-6-640_Small_1x_or_Large_2x.png 2x
+                  "
+                  media="(min-width: 640px)"
+                />
+                <source
+                  srcset="
+                    images/img-6-640_Small_1x_or_Large_2x.png 1x,
+                    images/img-6-1280_Large_2x.png            2x
+                  "
+                  media="(min-width: 320px)"
+                />
+                <img
+                  src="images/img-6-960_Medium_.png"
+                  alt="child wearing vr googles"
+                />
+              </picture>
+            </a>
+            <figcaption>
+              <h3>
+                <a href="https://cat-clicker-premium.herokuapp.com"
+                  >Cat Clicker Web App</a
+                >
+              </h3>
+            </figcaption>
+          </figure>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <p><br />Contact:<br />ricardobossan@gmail.com</p>
+      <ul>
+        <li>
+          <a href="https://www.linkedin.com/in/ricardo-bossan/"
+            ><i class="fa fa-linkedin" aria-hidden="true"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://github.com/ricardobossan"
+            ><i class="fa fa-github" aria-hidden="true"></i>
+          </a>
+        </li>
+        <li>
+          <a href="https://twitter.com/BossanRicardo"
+            ><i class="fa fa-twitter" aria-hidden="true"></i>
+          </a>
+        </li>
+      </ul>
+    </footer>
+    <script src="https://use.fontawesome.com/cfa0c4c3c0.js"></script>
+  </body>
 </html>
